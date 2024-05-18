@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/Style.css">
     <link rel="stylesheet" href="/css/colour-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="/css/style-switcher.css">
 </head>
 <body>
     <div class="main-container">
@@ -417,6 +418,24 @@
                 </div>
             </div>
         </section>
+        </div>
+    </div>
+
+    <!-- style switcher -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-skin"></i>
+        </div>
+        <div class="day-night s-icon">
+           <i class="fas fa-moon"></i> 
+        </div>
+        <h4>Theme Colours</h4>
+        <div class="colours">
+            <span class="colour-1" onclick="setActiveStyle('colour-1')"></span>
+            <span class="colour-2" onclick="setActiveStyle('colour-2')"></span>
+            <span class="colour-3" onclick="setActiveStyle('colour-3')"></span>
+            <span class="colour-4" onclick="setActiveStyle('colour-4')"></span>
+            <span class="colour-5" onclick="setActiveStyle('colour-5')"></span>
         </div>
     </div>
     <script src="/js/Script.js"></script>
