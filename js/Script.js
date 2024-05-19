@@ -32,6 +32,9 @@ const nav = document.querySelector(".nav"),
             }
             this.classList.add("active")
             showSection(this);
+            if(window.innerWidth < 1200) {
+                asideSectionTogglerBtn();
+            }
         })
     }
 
