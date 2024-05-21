@@ -1,9 +1,21 @@
+//typing style 
 var typed = new Typed('.typing',{
     strings:["","Web Developer","Fullstack Developer","Moblie App Developer","Web Designer"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
 })
+
+//project part card 
+document.addEventListener('DOMContentLoaded', () => {
+    const portfolioItems = document.querySelectorAll('.portfolio-item-inner');
+
+    portfolioItems.forEach(item => {
+        item.addEventListener('click', () => {
+            item.classList.toggle('flipped');
+        });
+    });
+});
 
 // Aside
 
