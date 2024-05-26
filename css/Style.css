@@ -9,7 +9,7 @@
 
 }
 
-.body.dark 
+body.dark 
 {
     --bg-black-900: #151515;
     --bg-black-100: #222222;
@@ -83,9 +83,7 @@ ul {
     display: none !important;
 }
 
-/* .main-content{
-    padding-left: 270px;
-} */
+
 
 .padd-15
 {
@@ -720,14 +718,6 @@ h3.my-profession{
     background: var(--bg-black-900);
 }
 
-/* .portfolio-item-inner.flipped .portfolio-front {
-    transform: rotateY(-180deg);
-}
-
-.portfolio-item-inner.flipped .portfolio-back {
-    transform: rotateY(0deg);
-} */
-
 .portfolio-item-inner:hover .portfolio-front {
     transform: rotateY(-180deg);
 }
@@ -740,6 +730,19 @@ h3.my-profession{
     width: 100%;
     display: block;
     height: 260px;
+}
+
+.portfolio-name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* contact section */
